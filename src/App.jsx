@@ -1,13 +1,10 @@
 import React from 'react'
-// import Birthday from './Birthday/index'
-import Slider from './SliderProject/index'
+import Pixaby from './Pixaby/Test'
 
 const App = () => {
- 
   return (
     <div>
-      {/* <Birthday /> */}
-      <Slider />
+      <Pixaby />
     </div>
   )
 }
