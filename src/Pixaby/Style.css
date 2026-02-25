@@ -7,9 +7,15 @@
 }
 
 .pagination span{
-  color: #fff;
   margin-left: 10px;
   margin-right: 10px;
+}
+body.light .pagination span {
+  color: #000;
+}
+
+body.dark .pagination span {
+  color: #fff;
 }
 
 .pagination button{
@@ -21,6 +27,4 @@
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
-
 }
-
